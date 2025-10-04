@@ -1,0 +1,21 @@
+<svg width="115" height="115" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- 1. Background Rectangle removed (making the background transparent) -->
+
+  <!-- 2. Blue Triangle removed -->
+
+  <!-- 3. White Stripes removed -->
+
+  <!-- 4. White Star (Centered, adjusted fill/stroke) -->
+  <g transform="translate(200, 200) scale(2)">
+    <polygon
+      points="0,0 11,30 45,30 18,50 29,84 0,63 -29,84 -18,50 -45,30 -11,30"
+      fill="#FFFFFF"
+      stroke="#CCCCCC"
+      stroke-width="0.5"
+    />
+  </g>
+
+  <!-- 5. "WEPA" Text (Centered inside the star) -->
+  
+</svg>
