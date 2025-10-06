@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Basilica! | Pesto!</title>
+  <title>Borikén! | Mofongo!</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css" />
@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Henny+Penny&family=Ultra&display=swap"
     rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
+  </style>
 </head>
 
 <body>
@@ -21,127 +24,195 @@
   <nav>
     <p>¡Bienvenidos chefs!</p>
     <ul>
-      <li class="nav-pickit"><a href="#">pick it</a></li>
-      <li class="nav-cookit"><a href="#">cook it</a></li>
-      <li class="nav-storeit"><a href="#">store it</a></li>
+      <li class="nav-pickit"><a href="#">Home</a></li>
+      <li class="nav-cookit"><a href="#">Recipes</a></li>
+      <li class="nav-storeit"><a href="#">Reviews</a></li>
     </ul>
   </nav>
 
   <main class="content">
-    <article itemscope itemtype="http://schema.org/Recipe">
+    <article>
       <figure>
-        <img src="img/Mofongo.png" itemprop="image" alt="plate of mofongo" />
-        <!-- <img alt="a bowl of pesto with a wooden spoon in it" src="img/Mofongo.png" srcset="
+        <div itemscope itemtype="https://schema.org/Recipe">
+          <span itemprop="name">Mom's World Famous Mofongo</span>
+          By <span itemprop="author">David Castellano</span>,
+          <meta itemprop="datePublished" content="2025-10-05">October 5, 2025
+
+          <img src="img/Mofongo.png" itemprop="image" alt="plate of mofongo" />
+          <!-- <img alt="a bowl of pesto with a wooden spoon in it" src="img/Mofongo.png" srcset="
     img/pesto/pesto_iodywc_c_scale,w_380.jpg   600w,
     img/pesto/pesto_iodywc_c_scale,w_780.jpg  1024w,
     img/pesto/pesto_iodywc_c_scale,w_1380.jpg 2048w
   " width="100%" height="auto" /> -->
-        <figcaption>
-          A flavorful and comforting Puerto Rican staple, <strong>Mofongo</strong> is made
-          from twice-fried green plantains that are mashed in a wooden mortar
-          (pilón) with garlic, pork cracklings (chicharrón), and often seasoned with broth.
-        </figcaption>
+          <figcaption>
+            Born from the culinary traditions of West Africa, <strong>Mofongo</strong> is a foundational dish in Puerto
+            Rican
+            culture, historically prepared and enjoyed as a hearty, savory mash that is frequently paired
+            with a light broth <em>(caldo)</em> or served stuffed with stews and seafood.
+          </figcaption>
       </figure>
-
 
       <h2 itemprop="name">Mofongo</h2>
 
       <p itemprop="description">
-        A sauce of crushed basil leaves, pine nuts, garlic, Parmesan cheese,
-        and olive oil, typically served with pasta.
+        Mofongo is a signature Puerto Rican dish made from twice-fried green plantains
+        mashed in a wooden mortar (pilón) with garlic and crispy pork cracklings (chicharrón).
+        The dense, savory mash is often formed into a ball and served stuffed with seafood or meat.
       </p>
 
-      <h3>Directions</h3>
 
-      <ol itemprop="recipeInstructions">
-        <li>
-          Combine the basil, garlic, and pine nuts in a food processor and
-          pulse until coarsely chopped. Add 1/2 cup of the oil and process
-          until fully incorporated and smooth. Season with salt and pepper.
-        </li>
-        <li>
-          If using immediately, add all the remaining oil and pulse until
-          smooth. Transfer the pesto to a large serving bowl and mix in the
-          cheese.
-        </li>
-        <li>
-          If freezing, transfer to an air-tight container and drizzle
-          remaining oil over the top. Freeze for up to 3 months. Thaw and stir
-          in cheese.
-        </li>
-      </ol>
+      <ul class="prepList">
+        <li itemprop="prepTime"> <em>Prep time: 20 minutes</em>
+        <li itemprop="cookTime"> <em>Cook time: 25 minutes</em>
+        <li itemprop="yield"> <em>Serving: 4 (as a hearty side dish)</em>
+        <li itemprop="tag"> <em>Tags: Puerto Rican, Side Dish, Plantain, Garlic</em>
+      </ul>
+      <img class="prPic" src="img/PR.png" itemprop="image" alt="city in Puerto Rico">
 
       <h3>Ingredients</h3>
       <ul>
-        <li itemprop="recipeIngredient">2 cups packed fresh basil leaves</li>
-        <li itemprop="recipeIngredient">2 cloves garlic</li>
-        <li itemprop="recipeIngredient">1/4 cup pine nuts</li>
-        <li itemprop="recipeIngredient">2/3 cup extra-virgin olive oil</li>
-        <li itemprop="recipeIngredient">
-          Kosher salt and freshly ground black pepper, to taste
-        </li>
-        <li itemprop="recipeIngredient">
-          1/2 cup freshly grated Pecorino cheese
-        </li>
-        <li itemprop="recipeIngredient">
-          1 <abbr title="Pounds">lb</abbr> plain pasta
+        <li itemprop="recipeIngredient">4 large green plantains (unripe)</li>
+        <li itemprop="recipeIngredient">3 cups vegetable or canola oil (for frying)</li>
+        <li itemprop="recipeIngredient">1 tsp salt, divided</li>
+        <li itemprop="recipeIngredient"> 1/4 cup pork cracklings (chicharrón) or bacon bits</li>
+        <li itemprop="recipeIngredient">4-6 cloves fresh garlic, minced</li>
+        <li itemprop="recipeIngredient">1/4 cup warm chicken broth (or water)</li>
+        <li itemprop="recipeIngredient">1 tbsp extra virgin olive oil</li>
+        <li itemprop="recipeIngredient">Salt and black pepper to taste</li>
+        <!-- <li itemprop="recipeIngredient">1 <abbr title="Pounds">lb</abbr> plain pasta -->
         </li>
       </ul>
+
+
+      <h3>Instructions</h3>
+      <h4> Part 1: Prepare and Fry the Plantains</h4>
+
+      <ol itemprop="recipeInstructions">
+        <li class="prep">
+          <strong>Peel the Plantains</strong>: Slice off both ends of the plantains.
+          Score the peel lengthwise in three or four places, cutting
+          shallowly only through the skin. Pry the peel off using the
+          tip of a knife.
+        </li>
+        <li>
+          <strong>Soak</strong>: Cut the peeled plantains into 3/4 inch thick rounds.
+          Place the rounds in a bowl of cold water with 1/2 teaspoon of
+          salt for about 10 minutes. Drain and pat them completely dry.
+        </li>
+        <li>
+          <strong>First Fry</strong>: Heat the oil in a heavy-bottomed pan to 300F degrees.
+          Fry the plantain rounds in batches for about 5 to 7 minutes until
+          they turn light yellow and are soft but not crispy. They should not
+          be golden brown. Remove and drain on paper towels.
+        </li>
+        <li>
+          <strong>Smash and Second Fry</strong>: While still warm, use a flat object (like the bottom of a glass)
+          or a wooden mallet to smash each plantain round flat—about 1/4 to 1/2 inch thick.
+          Return the smashed pieces to the hot oil and fry again at 350F (175C) or 2 to 3 minutes
+          until golden brown and crispy. Drain and sprinkle with the remaining.
+        </li>
+        <h4>
+          Part 2: Mash and Form the Mofongo
+        </h4>
+        <ol class="partTwoList">
+          <li>
+            <strong>Prepare Garlic Mix</strong>: In a separate small bowl, combine the minced garlic, extra
+            virgin olive oil, and a pinch of salt and pepper to create a quick paste.
+          </li>
+          <li>
+            <strong>Mash the Ingredients</strong>: Place the twice-fried plantain pieces, pork cracklings, and the
+            garlic paste into a large pilón (mortar and pestle).
+          </li>
+          <li>
+            <strong>Moisten</strong>: Begin mashing the mixture together. As it mashes, slowly add the warm chicken
+            broth,
+            a tablespoon at a time, until the mixture is cohesive, moist, and slightly sticky. Do not
+            over-mash; you want a lumpy texture, not a smooth paste.
+          </li>
+          <li>
+            <strong>Serve</strong>: Form the mash into four small, dense balls. Serve immediately as a side dish,
+            or press the mash into a bowl and invert it onto a plate to serve as a base for
+            stewed meat, shrimp, or a traditional broth (caldo).
+
+
+          </li>
+        </ol>
+
+
+      </ol>
+
+
+      </div>
     </article>
 
     <aside>
-      <h3>Similar recipes</h3>
+      <h3>Caldo Recipe</h3>
+
+      <ul>
+        <h4 class="caldoIngredients">Ingredients</h4>
+        <li>Chicken Broth - 4 cups (low sodium is best)</li>
+        <li>Sofrito - 2 tbsp (or use 1 tbsp finely minced onion and 1 tbsp finely minced bell pepper)</li>
+        <li>Garlic - 2 cloves, minced</li>
+        <li>Sazón (optional) - 1 packet with Annatto/Achiote (for color)</li>
+        <li>Tomato Sauce - 1 tbsp</li>
+        <li>Cilantro - 1/4 cup, fresh, chopped</li>
+        <li>Adobo or Salt & Pepper - To taste</li>
+        <li class="last">Olive Oil - 1 tsp</li>
+      </ul>
+
       <ul>
         <li>
-          <h4><a href="#">Thai Basil</a></h4>
+          <h4><a href="#">Sauté Aromatics</a></h4>
           <p>
-            Not even remotely related but our algorithm is broke, consectetur
-            adipiscing elit. Donec dapibus nunc nec dolor.
+            1. In a medium saucepan, heat the olive oil over medium heat.
+            Add the sofrito (or onion and pepper mix) and the <strong>minced garlic</strong>.
+            Sauté for 3 to 4 minutes until fragrant.
           </p>
         </li>
         <li>
-          <h4><a href="#">Vietnamese Curry</a></h4>
+          <h4><a href="#">Build Flavor Base</a></h4>
           <p>
-            Suspendisse pulvinar, dolor in elementum rutrum, augue sem
-            vehicula ante, posuere vulputate eros sem sed est. Aliquam
-            accumsan lobortis justo.
+            2. Stir in the <strong>tomato sauce</strong> and the optional packet of Sazón.
+            Cook for 1 minute, scraping up the browned bits from the bottom of the pan.
           </p>
         </li>
       </ul>
 
-      <h3>You might also like</h3>
       <ul>
         <li>
-          <h4><a href="#">Mama's Oily Pasta</a></h4>
+          <h4><a href="#">Simmer the Broth</a></h4>
           <p>
-            The recipe in the link is half the original recipe that yields
-            about half the amount. I always cut down on the oil in this
-            recipe.
+            3. Pour in the <strong>chicken broth</strong>. Bring the mixture to a simmer over medium-high heat.
           </p>
         </li>
         <li>
-          <h4><a href="#">Homemade Ice Cubes</a></h4>
+          <h4><a href="#">Season and Finish</a></h4>
           <p>
-            Mix 2 cups of water with 2 tablespoons of water. Add more water to
-            taste. I work long hours and I just don't have the time to invest
-            in this kind of hands-on cooking.
+            4. Once simmering, reduce the heat to low. Add the <strong>Adobo</strong> (or salt and pepper) to taste.
+            Stir
+            in the <strong>fresh
+              cilantro</strong>.
           </p>
         </li>
         <li>
-          <h4><a href="#">Baked Whole Camel</a></h4>
+          <h4><a href="#">Serve:</a></h4>
           <p>
-            For the final class of this course, we made a curry, with flat
-            rice noodles and fresh garden vegetables.
+            5. Let the broth gently simmer for 10 to 15 minutes to allow the flavors to deepen.
+            Serve the <strong>hot caldo</strong> in small bowls alongside the Mofongo for dipping, or pour it
+            directly over the plantain mash before serving.
           </p>
+
+          <h3>¡Buen provecho!</h3>
         </li>
       </ul>
     </aside>
   </main>
 
   <footer>
-    <h3><a href="#" title="Back to top">Basilica!</a></h3>
-    <p>Beta until the leaves have wilted</p>
-    <p>Copyright Basilica! All Rights Reserved</p>
+    <h3><a href="#" title="Back to top">Borikén!</a></h3>
+    <p>Thank you for visiting! We hope you enjoy bringing a
+      little <br>Puerto Rican flavor into your kitchen.</p>
+    <p>Copyright Borikén! All Rights Reserved</p>
   </footer>
 </body>
 
